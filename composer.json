@@ -1,0 +1,23 @@
+{
+  "name": "starthago/userinitials",
+  "description": "Create images from initials",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Stefan Hoerterer",
+      "email": "stefan.hoerterer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "userinitials\\": "src/"
+    }
+  }
+}
