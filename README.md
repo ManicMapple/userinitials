@@ -5,10 +5,19 @@ A small php lib to generate user images from initials like trello or the gmail a
 See the [sample.php](https://github.com/ManicMapple/userinitials/tree/master/samples) for a complete sample
 
 ```php
-$ui = new UserInitials(array('width' => 100, 'height' => 100));
+  
+  //options are optional
+  $options= array();
+  $options['backgroundcolor'] = '#d6dadc';
+  $options['color'] = '#000000';
+  $options['width'] = '85';
+  $options['height'] = '85';
+  $options['borderradius'] = '20';
+    
+  $ui = new UserInitials($options);
 
-print $ui->createSVG("SH");
-print $ui->createSVG("AC");
+  print $ui->createSVG("SH");
+  print $ui->createSVG("AC");
 ```
 
 ![Sample](https://raw.githubusercontent.com/ManicMapple/userinitials/master/samples/sample.png)
