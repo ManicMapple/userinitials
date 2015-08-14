@@ -8,4 +8,7 @@ See the [sample.php](https://github.com/ManicMapple/userinitials/tree/master/sam
 $ui = new UserInitials(array('width' => 100, 'height' => 100));
 
 print $ui->createSVG("SH");
+print $ui->createSVG("AC");
 ```
+
+![Sample](https://raw.githubusercontent.com/ManicMapple/userinitials/master/samples/sample.png)
