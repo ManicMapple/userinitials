@@ -36,7 +36,7 @@ class UserInitialsTest extends \PHPUnit_Framework_TestCase {
   }
 
   /**
-   * Test fiel creation
+   * Test file creation
    */
   public function testSVGCreationWorks(){
     $userinitials = new \userinitials\UserInitials();
